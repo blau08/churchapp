@@ -1,0 +1,326 @@
+<body>
+  <!-- Navigation -->
+  <a {{action "menuToggle"}} id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a {{action "menuClose"}} id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li class="sidebar-brand">
+        <a href="#top"  onclick = $("#menu-close").click(); >LED Fellowship</a>
+      </li>
+      <li>
+        <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+      </li>
+      <li>
+        <a href="#about" onclick = $("#menu-close").click(); >About</a>
+      </li>
+      <li>
+        <a href="#services" onclick = $("#menu-close").click(); >Who We Are</a>
+      </li>
+      <li>
+        <a href="#fellowships" onclick = $("#menu-close").click(); >Fellowships</a>
+        <li>
+          <a href="#led" onclick = $("#menu-close").click(); >LED</a>
+          <a href="#h2o" onclick = $("#menu-close").click(); >H2O</a>
+        </li>
+      </li>
+      <li>
+        <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+<!-- Header -->
+<header id="top" class="header">
+  <div class="text-vertical-center">
+    <img src="assets/img/logo.png" alt="" />
+    <h3>An Alliance Church</h3>
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+          </span>
+        </div>
+      </div>
+    </div>
+  <!-- /.row -->
+    <br>
+    <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+    <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+    <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+  </div>
+</header>
+
+
+
+  <!-- About -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Fellowships</h4>
+          <header class="jumbotron text-center" id="head">
+            <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button id="fellowshipIcon" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button id="fellowshipIcon" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button id="fellowshipIcon" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button id="fellowshipIcon" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button id="fellowshipIcon" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button id="fellowshipIcon" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button id="fellowshipIcon" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <button id="fellowshipIcon" type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-user"></span>
+            </button>
+          </header>
+        </div>
+        <div id="events" class="col-md-8 pull-right">
+          <h4>Events</h4>
+          <header class="jumbotron" id="head">
+            <p>October 2nd, 2015</p>
+            <p>--Today was a good day.</p>
+            <p>October 2nd, 2015</p>
+          </header>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+
+  <!-- Services -->
+  <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+  <section id="services" class="services bg-primary">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h2>Who We Are</h2>
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                  <strong>ENGLISH SERVICE</strong>
+                </h4>
+                <p>English services begin every Sunday from 9:15am - 10:30am. Pastor Ken Carlson leads this.</p>
+                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                  <strong>CANTONESE SERVICE</strong>
+                </h4>
+                <p>Cantonese service begins every Sunday from 11:00am - 12:15pm. Pastor Philip Huynh leads this.</p>
+                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                  <strong>MANDARIN SERVICE</strong>
+                </h4>
+                <p>Mandarin service begins every Sunday from 9:15am - 10:30am in the Growing Hall. Led by John and Queenie Lau.</p>
+                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                  <strong>SUNDAY SCHOOL</strong>
+                </h4>
+                <p>English Sunday school begins after service at 11:00am - 12:00 pm. Chinese Sunday School begins vice versa.</p>
+                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+              </div>
+            </div>
+          </div>
+          <!-- /.row (nested) -->
+        </div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <!-- Callout -->
+  <aside class="callout">
+    <div class="text-vertical-center">
+      <!-- <h1>Our Church</h1> -->
+    </div>
+  </aside>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container-fluid">
+      <h2><strong>OUR FELLOWSHIPS</strong></h2>
+      <hr class="small">
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          {{#link-to 'led'}}<a href="">
+            <img class="img-portfolio img-responsive" src="assets/img/led-1a.jpg">
+          </a>{{/link-to}}
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          {{#link-to 'h2o'}}<a href="#">
+            <img class="img-portfolio img-responsive" src="assets/img/led-3a.jpg">
+          </a>{{/link-to}}
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          <a href="#">
+            <img class="img-portfolio img-responsive" src="assets/img/led-2a.jpg">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="portfolio-item">
+          <a href="#">
+            <img class="img-portfolio img-responsive" src="assets/img/led-4a.jpg">
+          </a>
+        </div>
+      </div>
+      <!-- /.row (nested) -->
+      <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+      <!-- /.col-lg-10 -->
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <!-- Call to Action -->
+  <aside class="call-to-action bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3>We have small groups for everyone</h3>
+          <!-- <a href="#" class="btn btn-lg btn-light">LED</a>
+          <a href="#" class="btn btn-lg btn-dark">H2O</a> -->
+        </div>
+      </div>
+    </div>
+  </aside>
+
+        <!-- Footer -->
+        <footer>
+
+          <!-- Page Content -->
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <h4><strong>PCCMA</strong>
+                </h4>
+                <p>7435 SE Foster Rd<br>Portland, OR 97206</p>
+                <ul class="list-unstyled">
+                  <li><i class="fa fa-phone fa-fw"></i> (503) 775-2854</li>
+                  <li><button class="btn btn-default" type="button" id="toggle_edit" name="button"><i class="fa fa-envelope-o fa-fw"></i></button></li>
+                  <div id="myId" style="display:none;">
+                    <a href="mailto:ledfellowship@gmail.com">ledfellowship@gmail.com</a>
+                  </div>
+                </ul>
+                <br>
+                <ul class="list-inline">
+                  <li>
+                    <a href="https://www.facebook.com/groups/ledfellowship/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col col-md-4">
+
+                <!-- Map -->
+                <section id="contact" class="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.204560318706!2d-122.58639099999999!3d45.48582529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a016260695b7%3A0x365344f4b95d870f!2sPortland+Chinese+Alliance+Church!5e0!3m2!1sen!2sus!4v1441350914309" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                  <small>
+                    <a href="https://www.google.com/maps/place/Portland+Chinese+Alliance+Church/@45.4858253,-122.586391,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a016260695b7:0x365344f4b95d870f"></a>
+                  </small>
+                </section>
+              </div>
+
+              <!-- Contact Form -->
+              <div class="col col-md-4">
+                <form class="form-horizontal" id="contact_form">
+                  <h4 class="text-center"><strong>Send Me An Email</strong></h4>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <input id="name" name="name" type="text" placeholder="Enter your full name here" class="form-control input-md" required="">
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <input id="email" name="email" type="text" placeholder="Enter your email address here" class="form-control input-md" required="">
+                  </div>
+
+                  <!-- Textarea -->
+                  <div class="form-group">
+                    <input class="form-control" id="msg" name="msg" placeholder="Enter your message here">
+                  </div>
+
+                  <!-- Button -->
+                  <div class="form-group text-center">
+                    <button id="submit" name="submit" class="btn btn-primary">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+        </footer>
+        <div class="footer-below text-center">
+          <hr class="small">
+          <p class="text-muted">Copyright &copy; 2015</p>
+        </div>
+
+</body>
