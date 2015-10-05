@@ -1,2 +1,7 @@
 {{outlet}}
 {{led-tile}}
+{{add-comment addComment='addComment'}}
+<br>
+{{#each model as |comment|}}
+  {{view-comment comment=comment deleteComment='deleteComment'}}
+{{/each}}

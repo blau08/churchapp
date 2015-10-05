@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('about');
   this.route('led');
   this.route('h2o');
+  this.route('scheduleLED');
 });
 
 export default Router;

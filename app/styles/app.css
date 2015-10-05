@@ -4,3 +4,77 @@
 #fellowshipIcon {
   margin-top: 0.10cm;
 }
+#fellowshipsDiv {
+  height: 400px;
+  text-align: center;
+}
+#portfolioSection {
+  text-align: center;
+  background-color: white;
+}
+.img {
+  text-align: center;
+}
+#searchBar {
+  /*background-color: rgba(0, 0, 0, 0.25)*/
+  height: 50px;
+}
+#searchButton {
+  height: 50px;
+}
+.thumbnail {
+  height: 25em;
+}
+#btnCalendar {
+  width: 6em;
+}
+#btnAbout {
+  width: 6em;
+}
+#btnConctact {
+  width: 6em;
+}
+#topHeader {
+  text-align: center;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background: url(../assets/img/oregon.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#threeColumns {
+  text-align: center;
+}
+#wellFellowships {
+  height: 20em;
+  text-align: left;
+}
+#wellLatest {
+  height: 20em;
+}
+#wellEvents {
+  height: 20em;
+}
+#ledCommentsH3 {
+  text-align: center;
+}
+#ledButtons {
+  text-align: center;
+  display: table;
+}
+#btnLEDSchedule {
+  width: 6em;
+}
+#btnLEDPicture {
+  width: 6em;
+}
+#btnLEDHome {
+  width: 6em;
+}
+#head {
+  text-align: center;
+}

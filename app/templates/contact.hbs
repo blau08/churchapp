@@ -1,3 +1,73 @@
 {{outlet}}
-{{led-tile}}
-Contact Us At 888-8888
+
+  <!-- Footer -->
+  <footer>
+
+    <!-- Page Content -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h4><strong>PCCMA</strong>
+          </h4>
+          <p>7435 SE Foster Rd<br>Portland, OR 97206</p>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-phone fa-fw"></i> (503) 775-2854</li>
+            <li><button class="btn btn-default" type="button" id="toggle_edit" name="button"><i class="fa fa-envelope-o fa-fw"></i></button></li>
+            <div id="myId" style="display:none;">
+              <a href="mailto:ledfellowship@gmail.com">ledfellowship@gmail.com</a>
+            </div>
+          </ul>
+          <br>
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/groups/ledfellowship/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col col-md-4">
+
+          <!-- Map -->
+          <section id="contact" class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.204560318706!2d-122.58639099999999!3d45.48582529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a016260695b7%3A0x365344f4b95d870f!2sPortland+Chinese+Alliance+Church!5e0!3m2!1sen!2sus!4v1441350914309" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+            <small>
+              <a href="https://www.google.com/maps/place/Portland+Chinese+Alliance+Church/@45.4858253,-122.586391,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a016260695b7:0x365344f4b95d870f"></a>
+            </small>
+          </section>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col col-md-4">
+          <form class="form-horizontal" id="contact_form">
+            <h4 class="text-center"><strong>Send Me An Email</strong></h4>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <input id="name" name="name" type="text" placeholder="Enter your full name here" class="form-control input-md" required="">
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <input id="email" name="email" type="text" placeholder="Enter your email address here" class="form-control input-md" required="">
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+              <input class="form-control" id="msg" name="msg" placeholder="Enter your message here">
+            </div>
+
+            <!-- Button -->
+            <div class="form-group text-center">
+              <button id="submit" name="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
